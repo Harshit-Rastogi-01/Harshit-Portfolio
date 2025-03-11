@@ -32,25 +32,29 @@
 .about-right{
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 60px;
 }
 .about-para{
   display: flex;
   flex-direction: column;
   gap: 15px;
   font-size: 20px;
+  font-family: Arial;
+  line-height: 30px;
   font-weight: 400;
+  margin-bottom: 0;
 }
 .about-skills{
   display: flex;
   flex-direction: column;
   gap: 15px;
+  margin-top:0;
 }
 .about-skill{
   display: flex;
   gap: 30px;
   align-items: center;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .about-skill p{
   min-width: 130px;
@@ -92,7 +96,7 @@
   font-weight: 500;
 }
 .about-skill:hover{
-  transform: scale(1.05);
+  transform: scale(1.07);
   transition: 0.3s;
 }
 .about-achievement:hover{

@@ -18,15 +18,18 @@ const About = () => {
 
         <div className="about-right">
           <div className="about-para">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsa ad facere similique dolore aliquid voluptate velit labore incidunt eius quos nemo, sapiente nulla.</p>
-            <p>Consectetur adipisicing elit. In ipsa ad facere similique dolore aliquid voluptate velit labore incidunt eius quos nemo, sapiente nulla.</p>
+            <p>Hi , I’m Harshit , a 3rd year Computer Science student with a passion for Web Development and Problem-Solving. I specialize in the MERN stack and have built several web-based projects, showcasing my skills in building functional and scalable applications. Currently, I’ve built this portfolio website to showcase my journey, skills, and projects in one place. While web development is my forte. While web development is my forte, I’m also diving into Machine Learning soon.
+            </p>
+            <p>Beyond coding , I enjoy playing the guitar, painting, and solving cubes - a mix of creativity and logic that keeps me inspired.</p>
           </div>
           <div className="about-skills">
             <div className="about-skill"><p>HTML & CSS</p><hr style={{width: "100%" }} /></div>
             <div className="about-skill"><p>REACT JS</p><hr style={{width: "75%" }} /></div>
             <div className="about-skill"><p>MONGO DB</p><hr style={{width: "60%" }} /></div>
-            <div className="about-skill"><p>EXPRESS </p><hr style={{width: "75%" }} /></div>
+            <div className="about-skill"><p>BOOTSTRAP </p><hr style={{width: "95%" }} /></div>
+            <div className="about-skill"><p>EXPRESS JS </p><hr style={{width: "75%" }} /></div>
             <div className="about-skill"><p>SQL </p><hr style={{width: "65%" }} /></div>
+            <div className="about-skill"><p>GIT & GITHUB </p><hr style={{width: "95%" }} /></div>
             <div className="about-skill"><p>C , C++ </p><hr style={{width: "90%" }} /></div>
           </div>
         </div>

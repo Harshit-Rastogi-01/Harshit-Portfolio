@@ -6,7 +6,8 @@ const Hero = () => {
   return (
     <div className='hero'>
       <img src={Harshit} alt="" />
-      <h1>I am <span>Harshit Rastogi </span>, Fullstack Web Developer based in India .</h1>
+      {/* <h1>Hi, I'm <span>Harshit Rastogi</span>, Crafting Scalable & Efficient Digital Solutions.</h1> */}
+      <h1>Hi, I'm <span>Harshit Rastogi</span>. I Design * Develop * Deliver </h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora deserunt quasi at ipsum libero esse doloremque sint eum quae officia obcaecati, aspernatur ab ipsam ea. Natus mollitia eveniet dolorem id!</p>
       <div className="hero-action">
         <div className="hero-connect">Connect with me</div>
