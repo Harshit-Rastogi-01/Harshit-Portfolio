@@ -3,9 +3,39 @@ import './Contact.css'
 import theme_pattern from "../../assets/theme_pattern.svg"
 import mail_icon from "../../assets/mail_icon.svg"
 import location_icon from "../../assets/location_icon.svg"
+import { ToastContainer, toast } from 'react-toastify';
 const Contact = () => {
+  const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "566c56ae-ec6c-42f4-a083-e856e39f9782");
+//Web 3 forms is use to connect email response to our website
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+      toast.success('Response Submitted');
+      
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+      toast.error('Please try again');
+    }
+
+  };
   return (
-    <div className='contact'>
+    <div id='contact' className='contact'>
       <div className="contact-title">
         <h1> Get In Touch</h1>
         <img src={theme_pattern} alt="" />
@@ -33,14 +63,14 @@ const Contact = () => {
         </div>
       {/* ------------------ right section of contact component -------------------- */}
          
-            <form  className="contact-right">
+            <form  onSubmit={onSubmit} className="contact-right">
               <label htmlFor="">Your Name </label>
               <input type="text" placeholder="Enter your name" name='name' />
               <label htmlFor="">Your Email</label>   
               <input type="email" placeholder='Enter your email' name='email' />
               <label htmlFor="">Write your message here </label>
               <textarea name="message" rows="8" placeholder='Enter your message' ></textarea>  
-              <button type='submit' className="contact-submit">Submit now</button>         
+              <button type='submit' className="contact-submit">Submit Now</button>         
             </form>
           
       </div>

@@ -5,7 +5,7 @@ import arrow_icon from '../../assets/arrow_icon.svg'
 import Certifications_Data from '../../assets/certifications_data'
 const Certifications = () => {
   return (
-    <div className='cerifications'>  
+    <div id='certifications' className='cerifications'>  
       <div className="certifications-title">
         <h1>My Certifications</h1>
         <img src={theme_pattern} alt="" />

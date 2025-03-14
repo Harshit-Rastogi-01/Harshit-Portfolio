@@ -1,11 +1,10 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/profile_img.svg'
-import Harshit from '../../assets/HARSHIT_Image.jpg'
+import Harshit from '../../assets/HARSHIT_Image1.jpg'
 const About = () => {
   return (
-    <div className='about'>
+    <div id='about' className='about'>
       <div className="about-title">
         <h1>About Me</h1>
         <img src={theme_pattern} alt="" />
@@ -18,7 +17,7 @@ const About = () => {
 
         <div className="about-right">
           <div className="about-para">
-            <p>Hi , I’m Harshit , a 3rd year Computer Science student with a passion for Web Development and Problem-Solving. I specialize in the MERN stack and have built several web-based projects, showcasing my skills in building functional and scalable applications. Currently, I’ve built this portfolio website to showcase my journey, skills, and projects in one place. While web development is my forte. While web development is my forte, I’m also diving into Machine Learning soon.
+            <p>Hi , I’m Harshit , a 3rd year Computer Science student with a passion for Web Development and Problem-Solving. I specialize in the MERN stack and have built several web-based projects, showcasing my skills in building functional and scalable applications. Currently, I’ve built this portfolio website to showcase my journey, skills, and projects in one place. While web development is my forte, I’m also diving into Machine Learning soon.
             </p>
             <p>Beyond coding , I enjoy playing the guitar, painting, and solving cubes - a mix of creativity and logic that keeps me inspired.</p>
           </div>
