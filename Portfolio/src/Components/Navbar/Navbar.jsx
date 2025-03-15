@@ -36,7 +36,7 @@ const Navbar = () => {
 
         <li><AnchorLink className='anchor-link' offset={50}  href='#contact'><p onClick={() => handleClick("contact")} className={isActive === "contact" ? 'active' : ''}>Contact</p> </AnchorLink></li>
       </ul>
-      <button  className="nav-connect"> <AnchorLink className='anchor-link' offset={50} href='#contact'>Contact Me</AnchorLink></button>
+      <a href="https://github.com/Harshit-Rastogi-01" target='_blank'><button  className="nav-connect"> Github Profile</button></a>
     </div>
   );
 }

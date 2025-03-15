@@ -8,10 +8,10 @@ const Hero = () => {
       <img src={Harshit} alt="" />
       {/* <h1>Hi, I'm <span>Harshit Rastogi</span>, Crafting Scalable & Efficient Digital Solutions.</h1> */}
       <h1>Hi, I'm <span>Harshit Rastogi</span>. I Design * Develop * Deliver </h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora deserunt quasi at ipsum libero esse doloremque sint eum quae officia obcaecati, aspernatur ab ipsam ea. Natus mollitia eveniet dolorem id!</p>
+      <p>Empowering Ideas Through End-to-End Development <br/> Crafting Intutive & Seamless User Experiences. </p>
       <div className="hero-action">
         <AnchorLink className='anchor-link' offset={50} href='#contact'><button className="hero-connect"> Connect with Me</button></AnchorLink>
-        <div className="hero-resume">My Resume</div>
+        <a href="https://www.linkedin.com/in/harshit-2003-rastogi/" target="_blank"><div className="hero-resume">My LinkedIn</div></a>
       </div>
     </div>
   )

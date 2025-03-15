@@ -55,6 +55,7 @@
   cursor: pointer;
   transition: transform 0.3s;
   border:none;
+  color:white;
 }
 
 /* Mobile Menu - Open State */
@@ -78,7 +79,7 @@
     display: none;
   }
   .nav-mob-open{
-    display: block;
+    display:flex;
     position: fixed;
     right:30px;
   }

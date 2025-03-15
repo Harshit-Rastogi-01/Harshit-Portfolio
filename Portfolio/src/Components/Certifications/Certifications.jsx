@@ -15,7 +15,7 @@ const Certifications = () => {
           return <div key={index} className="certifications-format">
             <h4 className='number'>{certification.c_no}</h4>
             <h3>{certification.c_name}</h3>
-            <p>{certification.c_desc}</p>
+            <p className="desc">{certification.c_desc}</p>
 
             <div className="certifications-readmore">
               <p>Read More</p>
