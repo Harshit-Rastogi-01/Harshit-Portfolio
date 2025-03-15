@@ -123,9 +123,12 @@ z-index:-10 ;
   }
 
 }
-@media(max-width:400px){
+@media(max-width:450px){
   .certication-container{
     grid-template-columns: 1fr;
+  }
+  .certifications-title img{
+    display:none;
   }
   .desc{
     display: none;

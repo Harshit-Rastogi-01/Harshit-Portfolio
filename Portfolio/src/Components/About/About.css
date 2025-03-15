@@ -156,3 +156,8 @@
       font-size: 12px;
   }
 } 
+@media(max-width:450px){
+  .about-title img{
+   display: none;
+  }
+}
