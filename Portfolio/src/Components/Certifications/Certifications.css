@@ -77,6 +77,11 @@ z-index:-10 ;
   margin-top: 15px;
   gap:10px;
 }
+.certifications-readmore p{
+  font-weight: 600;
+  font-style: italic;
+}
+
 @media(max-width:768px){
   .cerifications{
     align-items: start;

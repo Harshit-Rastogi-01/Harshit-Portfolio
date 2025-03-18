@@ -20,7 +20,7 @@ const Certifications = () => {
             <div className="certifications-readmore">
             <a 
               href={certification.c_pdf} target="_blank" rel="noopener noreferrer" className="certifications-readmore">
-              <p>Read More</p>
+              <p>Show Certificate</p>
               <img src={arrow_icon} alt="arrow icon" />
             </a>
             </div>

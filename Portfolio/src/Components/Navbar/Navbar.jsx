@@ -32,7 +32,7 @@ const Navbar = () => {
 
         <li><AnchorLink className='anchor-link' offset={50} href='#certifications'> <p onClick={() => handleClick("certification")} className={isActive === "certification" ? 'active' : ''}>Certifications</p></AnchorLink></li>
 
-        <li><AnchorLink className='anchor-link' offset={50} href='#mywork'> <p onClick={() => handleClick("portfolio")} className={isActive === "portfolio" ? 'active' : ''}>Portfolio</p> </AnchorLink></li>
+        <li><AnchorLink className='anchor-link' offset={50} href='#mywork'> <p onClick={() => handleClick("portfolio")} className={isActive === "portfolio" ? 'active' : ''}>Projects</p> </AnchorLink></li>
 
         <li><AnchorLink className='anchor-link' offset={50}  href='#contact'><p onClick={() => handleClick("contact")} className={isActive === "contact" ? 'active' : ''}>Contact</p> </AnchorLink></li>
       </ul>
