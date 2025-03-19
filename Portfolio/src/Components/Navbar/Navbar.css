@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 12px 90px;
+  margin: 18px 90px;
 }
 
 /* Navigation Menu */
@@ -80,7 +80,7 @@
   }
   .nav-mob-open{
     display:flex;
-    position: fixed;
+    position:fixed;
     right:30px;
   }
   .nav-mob-close{

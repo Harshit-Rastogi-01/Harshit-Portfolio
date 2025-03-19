@@ -138,4 +138,10 @@ z-index:-10 ;
   .desc{
     display: none;
   }
+  .certifications-title h1{
+    font-size: 40px;
+  }
+  .cerifications{
+    margin: 50px;
+  }
 }

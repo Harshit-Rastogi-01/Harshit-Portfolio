@@ -34,12 +34,9 @@ const MyWork = () => {
           </div>
         })}
       </div>
-
-
-        {/* changed above it  */}
       <a href="https://github.com/Harshit-Rastogi-01" target='_blank'>
       <div className="mywork-showmore">
-        <p>Get Directed to GITHUB Profile</p>
+        <p><span>Get Directed to </span> GITHUB Profile</p>
         <img src={arrow_icon} alt="" />
       </div>
       </a>

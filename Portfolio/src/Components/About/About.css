@@ -160,4 +160,7 @@
   .about-title img{
    display: none;
   }
+  .about-achievement span{
+    display: none;
+  }
 }

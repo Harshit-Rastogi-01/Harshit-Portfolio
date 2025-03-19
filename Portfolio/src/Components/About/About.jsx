@@ -44,10 +44,15 @@ const About = () => {
             <h1>5+</h1>
             <p>PROJECTS COMPLETED</p>
           </div>
-          <hr />
+          <span>
+             <hr />
+          </span>
+          
           <div className="about-achievement">
-          <h1>CONTINUOUS</h1>
-          <p>LEARNING & GROWTH</p>
+            <span>
+              <h1>CONTINUOUS</h1>
+              <p>LEARNING & GROWTH</p>
+            </span>
           </div>
         </div>
     </div>

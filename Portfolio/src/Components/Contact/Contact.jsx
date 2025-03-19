@@ -37,7 +37,7 @@ const Contact = () => {
   return (
     <div id='contact' className='contact'>
       <div className="contact-title">
-        <h1> Get In Touch</h1>
+        <h1 className="heading"> Get In Touch</h1>
         <img src={theme_pattern} alt="" />
       </div>
 
@@ -64,12 +64,12 @@ const Contact = () => {
       {/* ------------------ right section of contact component -------------------- */}
          
             <form  onSubmit={onSubmit} className="contact-right">
-              <label htmlFor="">Your Name </label>
-              <input type="text" placeholder="Enter your name" name='name' />
-              <label htmlFor="">Your Email</label>   
-              <input type="email" placeholder='Enter your email' name='email' />
-              <label htmlFor="">Write your message here </label>
-              <textarea name="message" rows="8" placeholder='Enter your message' ></textarea>  
+              <label htmlFor="name">Your Name </label>
+              <input type="text" id="name" placeholder="Enter your name" name='name' />
+              <label htmlFor="email">Your Email</label>   
+              <input type="email" id="email" placeholder='Enter your email' name='email' />
+              <label htmlFor="message">Write your message here </label>
+              <textarea name="message" id="message" rows="8" placeholder='Enter your message' ></textarea>  
               <button type='submit' className="contact-submit">Submit Now</button>         
             </form>
           
