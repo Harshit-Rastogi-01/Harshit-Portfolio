@@ -83,6 +83,7 @@ a , a p{
   border-radius: 15px;
 }
 .mywork-format h4{
+  display: block;
   padding: 10px 15px;
 }
 .mywork-format h3{
@@ -181,16 +182,14 @@ a , a p{
     margin:50px;
   }
   .mywork-format img{
-   
     max-width: 100%;
-    /* display: none; */
   }
   .mywork-format { 
     font-size:20px;
     line-height: 30px;
     /* max-width:250px; */
     margin-bottom: 0; 
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .mywork-format p{
@@ -215,5 +214,16 @@ a , a p{
     /* margin-left: -5px; */
     margin-bottom: 5px;
   }
-  
+}
+@media(max-width:370px){
+  .mywork{
+    margin:50px;
+  }
+  .mywork-format { 
+    font-size:20px;
+    line-height: 30px;
+    max-width:250px;
+    margin-bottom: 0; 
+    
+  }
 }

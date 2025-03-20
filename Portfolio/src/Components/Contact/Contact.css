@@ -178,7 +178,7 @@
  
   .contact-left h1{
     font-size: 35px;
-
+    /* margin-top: 0px; */
   }
   
   .contact-right textarea{
@@ -187,7 +187,7 @@
   }
   .contact-title img{
     width:100px;
-    margin-right: -20px;
+    /* margin-right: -20px; */
   }
   .contact-title h1{
     padding: 0;
@@ -207,5 +207,19 @@
   .contact{
     margin:50px;
   }
+}
+@media(max-width:370px){
+  .contact-right textarea{
+    width:73%;
+    font-size: 15px;
+  }
+  .contact-right input{
+    border:none;
+    width:80%;
+  }
+  .contact-left p{
+    font-size: 17px;
+  }
+  
 
 }
