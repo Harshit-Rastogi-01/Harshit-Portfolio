@@ -56,9 +56,7 @@ const Contact = () => {
               <img src={location_icon} alt="" />
               <p>B-4/197, Bhoomiya Marg, Chitrakoot Scheme, Vaishali Nagar, Jaipur (Rajasthan) 302021 .</p>
             </div>
-            {/* <div className="contact-detail">
-              
-            </div> */}
+            
           </div>
         </div>
       {/* ------------------ right section of contact component -------------------- */}

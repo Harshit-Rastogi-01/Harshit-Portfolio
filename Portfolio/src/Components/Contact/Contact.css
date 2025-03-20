@@ -139,7 +139,6 @@
   } */
   .contact-left h1{
     font-size: 58px;
-
   }
   .contact-left p{
     font-size: 18px;
@@ -204,8 +203,12 @@
     font-weight: 500;
     font-size: 20px;
   }
+  
   .contact{
-    margin:50px;
+    gap:30px;
+    margin:50px ;
+    align-items: start;
+
   }
 }
 @media(max-width:370px){
@@ -217,8 +220,15 @@
     border:none;
     width:80%;
   }
-  .contact-left p{
+  .contact-right label{
     font-size: 17px;
+    font-weight: 400;
+  }
+  .contact-left p{
+    font-size: 16px;
+  }
+  .contact-details{
+    margin-bottom: 0px;
   }
   
 
