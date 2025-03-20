@@ -213,12 +213,12 @@
 }
 @media(max-width:370px){
   .contact-right textarea{
-    width:73%;
+    width:81%;
     font-size: 15px;
   }
   .contact-right input{
     border:none;
-    width:80%;
+    width:87%;
   }
   .contact-right label{
     font-size: 17px;
