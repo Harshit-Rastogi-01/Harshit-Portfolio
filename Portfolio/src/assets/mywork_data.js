@@ -5,6 +5,7 @@
 // import project5_img from '../assets/project_5.svg'
 import portfolio from "../assets/Portfolio_screenshot.png"
 import ViewTube from "../assets/ViewTube.png"
+import Zerodha from "../assets/Zerodha_ss.png"
 import grab from '../assets/Grab_and_go.png'
 
 const mywork_data = [
@@ -12,19 +13,29 @@ const mywork_data = [
         w_no:"01",
         w_name:"Grab & Go",
         w_desc: "A MERN stack-based online canteen management system for quick Food Ordering & Pickup, with Real-Time Order Tracking and Razorpay Integration",
-        w_img:grab 
+        w_img:grab ,
+        w_link: "https://your-zerodha-clone-link.com"
     },
     {
         w_no:"02",
         w_name:"Personal Portfolio",
         w_desc: "A React-based Website showcasing Projects, Skills, and Achievements with a sleek and a responsive design.",
-        w_img:portfolio
+        w_img:portfolio,
+        w_link: "https://harshit-portfolio-o1pe-git-main-harshit-rastogis-projects.vercel.app/"
     },
     {
         w_no:"03",
+        w_name:"Zerodha",
+        w_desc: "A stock market dashboard inspired by the Zerodha website, built with the MERN stack,featuring User-Authentication, a Watchlist, Holdings & Interactive Stock data visualizations . ",
+        w_img:Zerodha ,
+        w_link: "https://zerodha-frontend-m41e.onrender.com/"
+    },
+    {
+        w_no:"04",
         w_name:"ViewTube",
         w_desc: "A simplified version of YouTube built with HTML, CSS, and JavaScript for streaming videos. ",
-        w_img:ViewTube 
+        w_img:ViewTube,
+        w_link: "https://github.com/Harshit-Rastogi-01/View-Tube" 
     },
     // {
     //     w_no:4,

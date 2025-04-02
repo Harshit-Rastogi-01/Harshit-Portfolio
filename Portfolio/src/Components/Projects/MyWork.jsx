@@ -26,11 +26,13 @@ const MyWork = () => {
             <h3>{work.w_name}</h3>
             <img key={index} src={work.w_img} alt="" />
             <p className="desc">{work.w_desc}</p>
-
-            {/* <div className="certifications-readmore">
-              <p>Read More</p>
-              <img src={arrow_icon} alt="" />
-            </div> */}
+            
+            {/* {work.w_link && ( */}
+              <a href={work.w_link} target="_blank" rel="noopener noreferrer" className="projects-readmore"> 
+                <p>Try Link</p>
+                {/* <img src={arrow_icon} alt="" /> */}
+              </a>
+             {/* )}   */}
           </div>
         })}
       </div>

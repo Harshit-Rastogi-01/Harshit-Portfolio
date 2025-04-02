@@ -72,15 +72,19 @@ a , a p{
 /* added new css accordingly */
 .mywork-format {
   box-sizing: border-box;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
-  width:419px;
-  /* height: 280px; */
+
   cursor: pointer;
   transition: 0.6s;
   padding: 10px;
   border:2px solid white;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: space-between; /* Push last item to the bottom*/
+  height: 100%; /* Ensure equal height for all items */
+  padding: 12px;
 }
 .mywork-format h4{
   display: block;
@@ -122,6 +126,35 @@ a , a p{
   margin-bottom: 60px;
   
 }
+.projects-readmore{
+ 
+    display: flex;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    transition: .6s;
+    cursor: pointer;
+    width:40%;
+    margin-top: auto;
+    font-weight: 600;
+    font-style: italic;
+    background: linear-gradient(267deg ,#DA7C25 0.36% , #B923E1 102.6%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
+.projects-readmore:hover{
+  border: 1px solid white; 
+  border-radius: 20px;
+}
+.projects-readmore:active{
+  transform: scale(0.9); 
+  border: 1px solid white; 
+  border-radius: 20px;
+  transition: transform 0.1s ease, border 0.1s ease;
+}
+
+
 @media(max-width:768px){
   .mywork{
     gap:50px;
@@ -215,6 +248,7 @@ a , a p{
     margin-bottom: 5px;
   }
 }
+
 @media(max-width:370px){
   .mywork{
     margin:50px;
@@ -226,4 +260,5 @@ a , a p{
     margin-bottom: 0; 
     
   }
+ 
 }
