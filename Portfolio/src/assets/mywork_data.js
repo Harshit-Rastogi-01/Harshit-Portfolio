@@ -1,8 +1,3 @@
-// import project1_img from '../assets/project_1.svg'
-// import project2_img from '../assets/project_2.svg'
-// import project3_img from '../assets/project_3.svg'
-// import project4_img from '../assets/project_4.svg'
-// import project5_img from '../assets/project_5.svg'
 import portfolio from "../assets/Portfolio_screenshot.png"
 import ViewTube from "../assets/ViewTube.png"
 import Zerodha from "../assets/Zerodha_ss.png"
@@ -14,7 +9,7 @@ const mywork_data = [
         w_name:"Grab & Go",
         w_desc: "A MERN stack-based online canteen management system for quick Food Ordering & Pickup, with Real-Time Order Tracking and Razorpay Integration",
         w_img:grab ,
-        w_link: "https://your-zerodha-clone-link.com"
+        w_link: "https://food-delivery-frontend-m5al.onrender.com/"
     },
     {
         w_no:"02",
@@ -25,7 +20,7 @@ const mywork_data = [
     },
     {
         w_no:"03",
-        w_name:"Zerodha",
+        w_name:"Nivesh Drishti",
         w_desc: "A stock market dashboard inspired by the Zerodha website, built with the MERN stack,featuring User-Authentication, a Watchlist, Holdings & Interactive Stock data visualizations . ",
         w_img:Zerodha ,
         w_link: "https://zerodha-frontend-m41e.onrender.com/"
@@ -36,24 +31,7 @@ const mywork_data = [
         w_desc: "A simplified version of YouTube built with HTML, CSS, and JavaScript for streaming videos. ",
         w_img:ViewTube,
         w_link: "https://github.com/Harshit-Rastogi-01/View-Tube" 
-    },
-    // {
-    //     w_no:4,
-    //     w_name:"Web design",
-    //     w_desc: "Covers core Java concepts, including OOP, data types, and control structures.",
-    //     w_img:grab 
-    // },
-    // {
-    //     w_no:5,
-    //     w_name:"Web design",
-    //     w_desc: "Covers core Java concepts, including OOP, data types, and control structures.",
-    //     w_img:grab 
-    // },
-    // {
-    //     w_no:6,
-    //     w_name:"Web design",
-    //     w_img:project6_img
-    // },
+    }
 ]
  
 export default mywork_data;
