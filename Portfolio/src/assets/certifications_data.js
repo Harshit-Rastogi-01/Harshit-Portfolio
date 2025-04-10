@@ -7,9 +7,9 @@ const Certifications_Data = [
     },
     {
         c_no: "02",
-        c_name: "NPTEL for Software Testing",
-        c_desc: "Focuses on software testing principles, test case design, debugging, and quality assurance.",
-        c_pdf : "/certifications/oracle_1.pdf"
+        c_name: "Introduction to Packet Tracer",
+        c_desc: "Covers networking basics, device configuration, and simulation using Cisco Packet Tracer.",
+        c_pdf : "/certifications/Cisco_Packet_tracer.pdf"
     },
     {
         c_no: "03",
